@@ -1,4 +1,5 @@
 
+
 # Game controller direction input filter
 
 ![Breadboard](https://github.com/NelsonG6/SOCDchip/blob/master/Images/breadboard%20example.png?raw=true)
@@ -6,3 +7,4 @@
 - The concept of the chip is to provide game controllers with a ruleset for how left+right is handled, and up+down.
 - The chip takes an input for each of the 4 directional buttons, and passes out a filtered input that goes into the pcb.
 - A 5v power source is required to power the logic chips, and a ground wire.
+- .sch and .brd files are for use with [Eagle](https://www.autodesk.com/products/eagle/overview) 
